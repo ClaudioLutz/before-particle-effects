@@ -69,7 +69,7 @@ nav ul{
   width: 99%;
   padding: 1.3rem 0;
   border: 0;
-  margin-top: 2.8rem;
+  margin-top: 0rem;
   background-color: #399bd1;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
   transition: .5s box-shadow;
@@ -267,7 +267,7 @@ h1 {
   overflow: hidden;
 }
 #aktuell{
-  margin-top: 20px;
+  margin-top: 0px;
 }
 
 /* Help */
