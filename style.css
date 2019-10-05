@@ -55,7 +55,9 @@ iframe{
 nav ul{
   float: left;
 }
-
+.navbar{
+  background-color: black;
+}
 /* Bootstrap Overrides */
 
 .navbar-default .navbar-nav > .active > a,
