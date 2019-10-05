@@ -241,8 +241,15 @@ h1 {
   width: 60%;
 }
 .featured-project .image-container {
-  height: 19rem;
+  height: 15rem;
   margin-top: 20px; /* To match bootstrap header margins */
+}
+#aktuelle-stelle{
+  height: 15rem
+}
+.row{
+  margin-top: 0px;
+
 }
 
 .categories h3 {
@@ -290,6 +297,12 @@ h1 {
 .help p {
   max-width: 42rem;
   margin: auto;
+}
+
+#sprachen{
+  width: 66%;
+  margin:0 auto;
+  
 }
 /*Kontakt Formular*/
 
