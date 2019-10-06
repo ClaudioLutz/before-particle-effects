@@ -66,7 +66,7 @@ nav ul{
   color: #399bd1;
 }
 .btn-primary {
-  width: 99%;
+  width: 100%;
   padding: 1.3rem 0;
   border: 0;
   margin-top: 0rem;
@@ -156,7 +156,9 @@ h1 {
 }
 
 #email-button{
-  display: none;
+  display: block;
+  width: 13%;
+  margin: 0 auto;
 }
 ¨.btn-primary{
   width: 50%;
