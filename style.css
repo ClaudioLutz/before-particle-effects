@@ -239,10 +239,11 @@ h1 {
   margin-top: -7rem; /* To account for relatively positioned button */
 }
 #winpic{
-  width: 60%;
+  
+  height: 1000px;
 }
 .featured-project .image-container {
-  height: 15rem;
+  height: 17rem;
   margin-top: 20px; /* To match bootstrap header margins */
 }
 #aktuelle-stelle{
@@ -267,7 +268,7 @@ h1 {
 /* Projects */
 
 .project {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0rem;
 }
 
 .project .image-container {
