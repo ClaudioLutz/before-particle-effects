@@ -182,9 +182,13 @@ h1 {
     display: none;
     width: 100%;
   }
+  .row{
+    min-width: 100%;
+    border: solid 2px blue; 
+  }
 
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
   .jumbotron h1 {
     font-size: 4rem;
   }
