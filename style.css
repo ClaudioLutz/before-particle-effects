@@ -41,7 +41,8 @@ img {
 .container{
     margin-top: 0px;
     margin-bottom: 0px;
-    border-top: 2px solid whitesmoke;
+    border-top: 5px solid whitesmoke;
+    border-bottom: 2px solid #399bd1;
 }
 li{
   margin-top: 10px;
@@ -85,9 +86,7 @@ nav ul{
   -ms-transition: .5s box-shadow;
   -o-transition: .5s box-shadow;
 }
-#meilensteine .image-container img{
-  padding-bottom: 25rem;
-}
+
 
 .btn-primary:hover {
   background-color: #399bd1;
@@ -200,7 +199,7 @@ h1 {
   }
   .row{
     min-width: 100%;
-    border: solid 2px blue; 
+    border: solid 2px #399bd1; 
   }
 
 
@@ -229,13 +228,14 @@ h1 {
 
 /* Project Image Containers */
 
-#image-top {
-  overflow: hidden;
-  
+#image-top img {
+  scale: 100%;
+  margin: 0 auto;
+
 }
 
 .image-container img {
-  opacity: 0.7;
+  opacity: 0.6;
   transition: transform .5s,              opacity .5s;
   transition: transform .5s,              opacity .5s;
   -webkit-transition: transform .5s,;
@@ -246,11 +246,11 @@ h1 {
 
 .image-container img:hover {
   opacity: 1;
-  -webkit-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  -o-transform: scale(1.2);
+  -webkit-transform: scale(1.4);
+  -ms-transform: scale(1.4);
+  transform: scale(1.4);
+  -moz-transform: scale(1.4);
+  -o-transform: scale(1.4);
 }
 
 /* Featured Project */
